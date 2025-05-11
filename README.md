@@ -1,29 +1,33 @@
-# map
+# 🚗 Interactive Map - Vue 3 + Leaflet
 
-This template should help get you started developing with Vue 3 in Vite.
+Un'applicazione frontend costruita con **Vue 3** e **Leaflet**, che mostra su mappa dei veicoli e consente di **interagire con i marker**, ad esempio multandoli (colorandoli e aggiungendoli a una tabella laterale).
 
-## Recommended IDE Setup
+> 📍 Mappa dinamica con OpenStreetMap  
+> ✅ Marker cliccabili e interattivi  
+> 🧾 Tabella aggiornata in tempo reale  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🛠️ Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- ⚙️ **Vue 3** + [Vite](https://vitejs.dev/)
+- 🗺️ **Leaflet** per mappe interattive
+- 🎨 **Bootstrap 5** per il layout responsive
+- (Opzionale) 📦 **Express + SQLite** per la persistenza backend
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 📦 Setup del Progetto
 
-### Compile and Hot-Reload for Development
+### 🔃 Clona il repository
 
-```sh
-npm run dev
-```
+```bash
+git clone https://github.com/tuo-utente/map.git
+cd map
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+##Istalla le dipendenze 
+npm intall 
+
+##Avvia il server di sviluppo
+npm run dev 
